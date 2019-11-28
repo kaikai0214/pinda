@@ -4,11 +4,11 @@
   display: flex;
   justify-content: space-around;
   align-items:center;
-  line-height: 70rpx;
+  line-height: 80rpx;
 }
 .titleson{
-  font-size: 30px;
-  fill:currentColor;
+  font-size: 28px;
+  color:red;
 }
 .searchBox {
   display: flex;
