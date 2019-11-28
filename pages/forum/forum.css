@@ -4,3 +4,7 @@
     height: 300rpx;
     display: flex;
 }
+.box .top{
+    display: flex;
+    flex-direction: column;
+}

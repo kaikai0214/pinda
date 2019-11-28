@@ -1,6 +1,11 @@
 Page({
     data: {
-
+        iconarr:[
+            {icon:"icon-zhuangxiu1",title:"装修"},
+            {icon:"icon-shafa1",title:"建材"},
+            {icon:"icon-xiaoxi1",title:"闲聊"},
+            {icon:"icon-fuli",title:"福利"}
+        ]
     },
     onLoad: function () {
         // 监听页面加载的生命周期函数
