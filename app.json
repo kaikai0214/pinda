@@ -3,7 +3,8 @@
         "pages/index/index",
         "pages/find/find",
         "pages/news/news",
-        "pages/home/home"
+        "pages/home/home",
+        "pages/forum/forum"
     ],
     "subPackages": [
         {
@@ -21,9 +22,11 @@
         "backgroundTextStyle": "light"
     },
     "preloadRule": {
-       "pages/index": {
+        "pages/index": {
             "network": "all",
-            "packages": ["subpackage"]
+            "packages": [
+                "subpackage"
+            ]
         }
     },
     "tabBar": {
@@ -31,35 +34,40 @@
             {
                 "pagePath": "pages/index/index",
                 "text": "首页",
-                "iconPath": "/images/index.png",
+                "iconPath": "/images/index_a.png",
                 "selectedIconPath": "/images/index_active.png"
-              },
-              {
+            },
+            {
                 "pagePath": "pages/find/find",
-                "text": "找房",
-                "iconPath": "/images/find.png",
-                "selectedIconPath": "/images/find_active.png"
-              },
-              {
+                "text": "装修公司",
+                "iconPath": "/images/finish.png",
+                "selectedIconPath": "/images/finish_active.png"
+            },
+            {
                 "pagePath": "pages/news/news",
-                "text": "资讯",
-                "iconPath": "/images/news.png",
-                "selectedIconPath": "/images/news_active.png"
-              },
-              {
-                "pagePath": "pages/home/home",
-                "text": "我的",
-                "iconPath": "/images/home.png",
-                "selectedIconPath": "/images/home_active.png"
-              }
+                "text": "旺铺",
+                "iconPath": "/images/shop.png",
+                "selectedIconPath": "/images/shop_active.png"
+            },
+            {
+                "pagePath": "pages/forum/forum",
+                "text": "论坛",
+                "iconPath": "/images/forum.png",
+                "selectedIconPath": "/images/forum_active.png"
+            }
         ],
-        "backgroundColor" : "#ffffff",
+        "backgroundColor": "#ffffff",
         "borderStyle": "white",
         "color": "#000",
         "selectedColor": "#6495ED"
     },
-    "requiredBackgroundModes": ["audio"],
-    "prefetches": ["https://m.baidu.com", "https://m.baidu.com?query=${query}"],
+    "requiredBackgroundModes": [
+        "audio"
+    ],
+    "prefetches": [
+        "https://m.baidu.com",
+        "https://m.baidu.com?query=${query}"
+    ],
     "networkTimeout": {
         "request": 30000,
         "connectSocket": 10000,
