@@ -1,5 +1,6 @@
 <view class="box">
     <view s-for="iconarr" class="top">
-        <view class="iconfont {{item.icon}}">{{item.title}}</view>
+        <view class="iconfont {{item.icon}} icon"></view>
+        <view>{{item.title}}</view>
     </view>
 </view>
