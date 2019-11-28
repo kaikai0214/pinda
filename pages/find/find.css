@@ -1,4 +1,15 @@
 /* 搜索 */
+@import '/public/icon_css/ali.css';
+.title{
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  line-height: 70rpx;
+}
+.titleson{
+  font-size: 30px;
+  fill:currentColor;
+}
 .searchBox {
   display: flex;
   height: 100rpx;

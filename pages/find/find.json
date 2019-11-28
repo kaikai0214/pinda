@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "找装修公司",
+    "backgroundTextStyle": "light"
+}
 }
