@@ -65,12 +65,29 @@
   flex-direction: column;
   justify-content: space-between;
 }
+.recommend-list-item-title{
+  font-size: 15px;
+  color:black;
+  line-height: 18px;
+}
+.recommend-list-item-disre{
+  display: flex;
+  align-items:center;
+}
+.recommend-list-item-disre text{
+  font-size: 20rpx;
+  
+}
+.star{
+  display: flex;
+  color:yellow;
+}
 .recommend-list-item-spec {
   color: #ccc;
   font-size: 14px;
 }
 .recommend-list-item-tag text{
-  margin: 6rpx;
+  margin: 3rpx;
 }
 .recommend-list-item-price {
   color: red;
@@ -80,24 +97,17 @@
 }
 
 .tag1{
-  padding: 10rpx;
+  padding: 5rpx;
   background: #C5EDDC;
   color: #5ECC9F;
-  font-size: 12px;
+  font-size: 10px;
   border-radius: 5px;
 }
 .tag2{
-  padding: 10rpx;
-  background: #C3EBF0;
-  color: #39BECD;
-  font-size: 12px;
-  border-radius: 5px;
-}
-.tag3{
-  padding: 10rpx;
-  background: #CDE6FE;
-  color: #5AABFD;
-  font-size: 12px;
+  padding: 5rpx;
+  background: #C5EDDC;
+  color: #5ECC9F;
+  font-size: 10px;
   border-radius: 5px;
 }
 /* 回到顶部 */
