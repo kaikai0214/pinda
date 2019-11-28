@@ -1,6 +1,21 @@
+<view class="content">
+
+
 <view class="box">
     <view s-for="iconarr" class="top">
         <view class="iconfont {{item.icon}} icon"></view>
         <view>{{item.title}}</view>
     </view>
+</view>
+<view class="board">
+    <view class="fuli">福利</view>
+    <view style="line-height:100rpx;">|</view>
+    <view class="board_right">
+        <view>使用贴！集成灶使用细节问题...</view>
+        <view class="board_number">浏览4165 . 评论33</view>
+    </view>
+</view>
+
+
+
 </view>

@@ -1,13 +1,53 @@
 @import "/public/icon_css/ali.css";
+/* 全局样式 */
+page{
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+}
+.content{
+    background:#eee;
+    height: 100%;
+    width: 100%;
+}
 .box{
     width: 750rpx;
-    height: 300rpx;
+    height: 100rpx;
     display: flex;
+    justify-content: space-around;
+    padding: 50rpx 0;
 }
 .box .top{
     display: flex;
     flex-direction: column;
 }
 .box .icon{
-    font-size: 28px;
+    font-size: 30px;
+}
+/* 告示 */
+.board{
+    border:1px solid grey;
+    height: 100rpx;
+    line-height: 50rpx;
+    width: 700rpx;
+    background: white;
+    display: flex;
+    /* justify-content: space-around; */
+    margin-left: 25rpx;
+    border-radius: 10rpx;
+    padding-left: 30rpx;
+    box-sizing: border-box;
+}
+.board .fuli{
+    font-size:20px;
+    margin-right:20rpx;
+    line-height:100rpx;
+    color: red;
+}
+.board .board_right{
+    margin-left: 20rpx;
+}
+.board_number{
+    color:gray;
+    font-size: 12px;
 }
