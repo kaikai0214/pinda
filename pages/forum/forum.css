@@ -6,7 +6,7 @@ page{
   width: 100%;
 }
 .content{
-    background:#eee;
+    background:#fffff0;
     height: 100%;
     width: 100%;
 }
@@ -16,6 +16,7 @@ page{
     display: flex;
     justify-content: space-around;
     padding: 50rpx 0;
+    background: white;
 }
 .box .top{
     display: flex;
@@ -26,7 +27,7 @@ page{
 }
 /* 告示 */
 .board{
-    border:1px solid grey;
+    border:1px solid gray;
     height: 100rpx;
     line-height: 50rpx;
     width: 700rpx;
@@ -50,4 +51,46 @@ page{
 .board_number{
     color:gray;
     font-size: 12px;
+}
+/* 内容开始 */
+.body{
+    background: white;
+    margin-top:40rpx;
+}
+.body .body_top{
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 20rpx;
+}
+.body_content{
+    display: flex;
+    padding: 20rpx;
+}
+.content_one{
+    border:1px solid gray;
+    border-radius: 10rpx;
+}
+.one_image{
+    width: 368rpx;
+    height: 282rpx;
+}
+.one_content{
+    margin:20rpx;
+    line-height: 50rpx;
+}
+.one_shop{
+    display: flex;
+    align-items: center;
+}
+.one_shop image{
+    width: 40rpx;
+    height: 40rpx;
+    margin-right:20rpx; 
+}
+.shop_brief{
+    display: flex;
+    flex-direction: column;
 }

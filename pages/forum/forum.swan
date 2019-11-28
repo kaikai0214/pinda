@@ -1,21 +1,44 @@
 <view class="content">
-
-
-<view class="box">
-    <view s-for="iconarr" class="top">
-        <view class="iconfont {{item.icon}} icon"></view>
-        <view>{{item.title}}</view>
+    <view class="box">
+        <view s-for="iconarr" class="top">
+            <view class="iconfont {{item.icon}} icon"></view>
+            <view>{{item.title}}</view>
+        </view>
     </view>
-</view>
-<view class="board">
-    <view class="fuli">福利</view>
-    <view style="line-height:100rpx;">|</view>
-    <view class="board_right">
-        <view>使用贴！集成灶使用细节问题...</view>
-        <view class="board_number">浏览4165 . 评论33</view>
+    <!-- 中间提示 -->
+    <view class="board">
+        <view class="fuli">福利</view>
+        <view style="line-height:100rpx;">|</view>
+        <view class="board_right">
+            <view>使用贴！集成灶使用细节问题...</view>
+            <view class="board_number">浏览4165 . 评论33</view>
+        </view>
     </view>
-</view>
-
-
+    <!-- 内容部分 -->
+    <view class="body">
+        <view class="body_top">
+            <view>最新</view>
+            <view>精华</view>
+        </view>
+        <view class="body_content">
+            <!-- 第一个 -->
+            <view class="content_one">
+                <image class="one_image" src="http://imgmall.tg.com.cn/kol/2019/11/25/1149/jQcMIUrslCKQtenVqz8q3pVL09l6.jpg?imageView2/2/w/500"></image>
+                <view class="one_content">
+                    <view>一个二手房的蜕变</view>
+                    <view style="color:grey;font-size:12px;">评论6、赞24</view>
+                    <view class="one_shop">
+                        <image class="shop_avatar" src="http://imgmall.tg.com.cn/kol/2019/11/25/1141/diS7bWjREFYrjK4jYsJxAQC6cBDA.png"></image>
+                        <view class="shop_brief">
+                            <view>北研设计</view>
+                            <view class="shop_rank">v2</view>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <!-- 第二个 -->
+            <view></view>
+        </view>
+    </view>
 
 </view>
