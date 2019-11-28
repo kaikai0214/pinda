@@ -1,0 +1,6 @@
+@import "/public/icon_css/ali.css";
+.box{
+    width: 750rpx;
+    height: 300rpx;
+    display: flex;
+}
